@@ -86,13 +86,3 @@ python train.py --model resnet
 # Evaluate saved model
 python eval.py --model resnet --model_path resnet_model.pth
 ```
-
-## 📁 Project Structure
-.
-├── data_utils.py          # Preprocessing & dataset utilities
-├── model_baseline.py      # Baseline CNN model
-├── model_resnet.py        # ResNet18 model
-├── train.py               # Training script (argparse-ready)
-├── eval.py                # Evaluation script with confusion matrix
-├── requirements.txt
-├── README.md
